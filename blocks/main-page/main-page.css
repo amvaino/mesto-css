@@ -1,5 +1,8 @@
 .main-page {
-    background: #545454;
+    background-color: #000000;
     margin: 0 auto;
     max-width: 1280px;
+    color: #fff;
+    padding-top: 45px;
+    padding-bottom: 60px;
 }

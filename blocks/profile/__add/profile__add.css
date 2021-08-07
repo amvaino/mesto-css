@@ -1,0 +1,14 @@
+.profile__add {
+    padding: 0;
+    width: 150px;
+    height: 50px;
+    background: url("/images/add.svg") center no-repeat;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    grid-column: 4;
+    grid-row: 1/3;
+    margin-left: 0;
+    cursor: pointer;
+    margin: 35px 0;
+}
