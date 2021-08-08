@@ -1,0 +1,16 @@
+.popup__subname {
+    margin: 0;
+    margin-left: 36px;
+    font-size: 14px;
+    line-height: 17px;
+}
+.popup__subname:after {
+    content: "";
+    position: absolute;
+    top: 195px;
+    left: 0;
+    width: 358px;
+    height: 1px;
+    margin-left: 36px;
+    background: rgba(0, 0, 0, 0.2);
+}
