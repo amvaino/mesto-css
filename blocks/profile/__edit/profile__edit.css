@@ -6,7 +6,7 @@
     cursor: pointer;
     width: 24px;
     height: 24px;
-    background: url(/images/pencil.svg) center center no-repeat;
+    background: url(../../../images/pencil.svg) center center no-repeat;
     border: 1px solid #fff;
     font-weight: 500;
 }
