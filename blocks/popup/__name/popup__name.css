@@ -4,6 +4,9 @@
     font-size: 14px;
     line-height: 17px;
     margin-bottom: 40px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .popup__name:after {
     content: "";
