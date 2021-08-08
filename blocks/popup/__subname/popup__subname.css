@@ -14,3 +14,13 @@
     margin-left: 36px;
     background: rgba(0, 0, 0, 0.2);
 }
+@media screen and (max-width: 1024px) {
+    .popup__subname {
+        margin-left: 22px;
+    }
+    .popup__subname:after {
+        top: 206px;
+        margin-left: 22px;
+        width: 238px;
+    }
+}
