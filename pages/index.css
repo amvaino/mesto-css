@@ -12,7 +12,6 @@
 @import url(../blocks/profile/__edit/profile__edit.css);
 @import url(../blocks/profile/__add/profile__add.css);
 @import url(../blocks/elements-grid/elements-grid.css);
-@import url(../blocks/elements-grid/__cards/elements-grid__cards.css);
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__image/card__image.css);
 @import url(../blocks/card/__like/card__like.css);
