@@ -9,7 +9,7 @@
     margin-top: 8px;
     margin-bottom: 72px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 882px) {
     .profile__subname {
         font-weight: 400;
         font-size: 14px;
