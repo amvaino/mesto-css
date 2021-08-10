@@ -9,9 +9,8 @@
     .header {
         max-width: 320px;
         border-bottom: none;
-        position: relative;
     }
-    header:after {
+    .header:after {
         content: "";
         position: absolute;
         bottom: 0;

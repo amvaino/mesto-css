@@ -39,7 +39,7 @@
                         />
                         <div class="card__content">
                             <h2 class="card__title">Карачаево-Черкессия</h2>
-                            <button class="card__like"></button>
+                            <button type="submit" class="card__like"></button>
                         </div>
                     </article>
                     <article class="card">
@@ -50,7 +50,7 @@
                         />
                         <div class="card__content">
                             <h2 class="card__title">Гора Эльбрус</h2>
-                            <button class="card__like"></button>
+                            <button type="submit" class="card__like"></button>
                         </div>
                     </article>
                     <article class="card">
@@ -61,7 +61,7 @@
                         />
                         <div class="card__content">
                             <h2 class="card__title">Домбай</h2>
-                            <button class="card__like"></button>
+                            <button type="submit" class="card__like"></button>
                         </div>
                     </article>
                     <article class="card">
@@ -72,7 +72,7 @@
                         />
                         <div class="card__content">
                             <h2 class="card__title">Гора Эльбрус</h2>
-                            <button class="card__like"></button>
+                            <button type="submit" class="card__like"></button>
                         </div>
                     </article>
                     <article class="card">
@@ -83,7 +83,7 @@
                         />
                         <div class="card__content">
                             <h2 class="card__title">Домбай</h2>
-                            <button class="card__like"></button>
+                            <button type="submit" class="card__like"></button>
                         </div>
                     </article>
                     <article class="card">
@@ -94,7 +94,7 @@
                         />
                         <div class="card__content">
                             <h2 class="card__title">Карачаевск</h2>
-                            <button class="card__like"></button>
+                            <button type="submit" class="card__like"></button>
                         </div>
                     </article>
                 </section>
@@ -103,19 +103,17 @@
                 <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
             </footer>
         </div>
-        <section aria-label="Всплывающее окно">
-            <div class="popup popup_opened">
-                <div class="popup__container">
-                    <div class="popup__close"></div>
-                    <div class="popup__form">
-                        <p class="popup__title">Редактировать профиль</p>
-                        <p class="popup__name">Жак-Ив Кусто</p>
-                        <p class="popup__subname">Исследователь океана</p>
-                        <button type="submit" class="popup__button">
-                            Сохранить
-                        </button>
-                    </div>
-                </div>
+        <section class="popup popup_opened" aria-label="Всплывающее окно">
+            <div class="popup__container">
+                <button type="reset" class="popup__close"></button>
+                <form class="popup__form">
+                    <h3 class="popup__title">Редактировать профиль</h3>
+                    <input class="popup__name" name="name" type="text" placeholder="Жак-Ив Кусто"></input>
+                    <input class="popup__name" name="description" type="text" placeholder="Исследователь океана"></input>
+                    <button type="submit" class="popup__button">
+                        Сохранить
+                    </button>
+                </form>
             </div>
         </section>
     </body>

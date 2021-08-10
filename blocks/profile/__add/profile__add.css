@@ -20,6 +20,6 @@
         width: 282px;
         margin: 33px auto 36px;
         display: block;
-        background: url("../../../images/add-small.png") center no-repeat;
+        background-size: 16px;
     }
 }

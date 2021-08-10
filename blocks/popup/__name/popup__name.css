@@ -1,29 +1,18 @@
 .popup__name {
-    margin: 0;
     margin-left: 36px;
     font-size: 14px;
-    line-height: 17px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-}
-.popup__name:after {
-    content: "";
-    position: absolute;
-    top: 138px;
-    left: 0;
-    width: 358px;
-    height: 1px;
-    margin-left: 36px;
-    background: rgba(0, 0, 0, 0.2);
+    padding: 0;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 8px;
 }
 @media screen and (max-width: 882px) {
     .popup__name {
-        margin-left: 22px;
-    }
-    .popup__name:after {
-        top: 149px;
         margin-left: 22px;
         width: 238px;
     }

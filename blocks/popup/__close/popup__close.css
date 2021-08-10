@@ -2,10 +2,16 @@
     background: url(../../../images/Close-Icon.svg) 100% no-repeat;
     width: 32px;
     height: 32px;
-    margin-top: -40px;
-    margin-left: 438px;
     cursor: pointer;
     background-size: cover;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    position: absolute;
+    margin-top: -39px;
+    margin-left: 438px;
 }
 .popup__close:hover {
     opacity: 0.5;
