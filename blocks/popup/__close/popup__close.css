@@ -10,8 +10,8 @@
     color: inherit;
     background-color: transparent;
     position: absolute;
-    margin-top: -39px;
-    margin-left: 438px;
+    top: -40px;
+    left: 438px;
 }
 .popup__close:hover {
     opacity: 0.5;
@@ -20,7 +20,7 @@
     .popup__close {
         width: 20px;
         height: 20px;
-        margin-top: -36px;
-        margin-left: 262px;
+        top: -36px;
+        left: 262px;
     }
 }
