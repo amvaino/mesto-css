@@ -11,7 +11,7 @@
     background-color: transparent;
     position: absolute;
     top: -40px;
-    left: 438px;
+    right: -40px;
 }
 .popup__close:hover {
     opacity: 0.5;
@@ -21,6 +21,6 @@
         width: 20px;
         height: 20px;
         top: -36px;
-        left: 262px;
+        right: 0;
     }
 }
